@@ -1,3 +1,4 @@
 .idea
 
 anidb/*.xml
+private/*

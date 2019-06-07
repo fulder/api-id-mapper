@@ -10,7 +10,6 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 now = datetime.datetime.now()
 date_today = now.strftime("%Y-%m-%d")
-date_yesterday = (now - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
 current_filename = os.path.join(dir_path, "{}.xml".format(date_today))
 
 if not os.path.isfile(current_filename):
